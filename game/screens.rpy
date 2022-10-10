@@ -554,13 +554,13 @@ screen about():
         vbox:
 
             label "[config.name!t]"
-            text _("Версія [config.version!t]\n")
 
             ## gui.about зазвичай встановлюється в options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Створено за допомогою {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("\n\nВерсія [config.version!t]")
+            text _("Створено за допомогою {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].")
 
 
 style about_label is gui_label
@@ -1031,7 +1031,7 @@ screen keyboard_help():
 
     hbox:
         label "V"
-        text _("Вмикає допоміжне {a=https://www.renpy.org/l/voicing}самоозвучення{/a}.")
+        text _("Вмикає допоміжне самоозвучення.")
 
     hbox:
         label "Shift+A"
