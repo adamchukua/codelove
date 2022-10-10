@@ -213,3 +213,11 @@ init python:
 ## скісною рискою.
 
 # define build.itch_project = "renpytom/test-project"
+
+## Дозвіл на автозбереження
+
+define config.has_autosave = True
+
+## Автозбереження після кожного вибору
+
+define config.autosave_on_choice = True
