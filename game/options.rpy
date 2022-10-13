@@ -221,3 +221,7 @@ define config.has_autosave = True
 ## Автозбереження після кожного вибору
 
 define config.autosave_on_choice = True
+
+## Швидкість тексту за замовчуванням
+
+default preferences.text_cps = 40
