@@ -3,6 +3,9 @@ define form = Character("Форма")
 
 define girl = Character("Дівчина")
 define boy = Character("Хлопець")
+define stud1 = Character("Студент 1")
+define stud2 = Character("Студентка 2")
+define stud3 = Character("Студент 3")
 
 define main = Character("Ви")
 define cpp = Character("Сі")
@@ -287,12 +290,16 @@ label intro_python:
         "Ні":
             main "Дякую за пропозицію, але я краще ще місце пошукаю. Може підсяду до одногрупників."
 
+            show thon sad at left
+
             boy "Ну чого ти так. Сам же бачив, що один сидіти будеш."
 
             girl "Сідай вже. Тебе стільки разів запрошують, не гарно знову відмовляти."
 
             "Ви сідаєте поруч з хлопцем. Ви крадькома побачили легку посмішку дівчини, але перетнувшись з нею поглядами, вона знову перейшла до роздратованого стану."
             
+    show thon happy at left
+
     boy "Ааа, от чого ти хвилювався."
 
     boy "Все нормально, Пай просто ще не звикла до такої кількості нових людей. Насправді, вона теж рада, так?"
@@ -390,6 +397,8 @@ label intro_python:
 
 
 label intro_java_and_js:
+    scene black # TODO: add bg
+
     
 
     return
