@@ -427,9 +427,9 @@ label intro_python:
 label intro_java_and_js:
     "Потихеньку просуваучись в черзі, Ви слухаєте розмови студентів між собою."
 
-    show stud1 at left
-    show stud2
-    show stud3 at right
+    show student1 at left
+    show studentka
+    show student2 at right
 
     stud1 "Він якийсь ненормальний. Треба бути подалі від нього."
 
