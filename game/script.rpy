@@ -62,7 +62,11 @@ label start:
             jump intro_cpp
 
         "Ні":
-            #TODO 1: bad ending :(
+            scene bg dead
+
+            play audio "audio/dead.mp3"
+
+            "..."
             
             return
 
