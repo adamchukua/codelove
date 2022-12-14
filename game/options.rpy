@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## Версія гри.
 
-define config.version = "0.1"
+define config.version = "0.9"
 
 
 ## Текст, який розміщується на екрані інформації про гру. Поставте текст між
